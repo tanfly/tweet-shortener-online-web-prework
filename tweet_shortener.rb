@@ -4,6 +4,7 @@ end
 
 def word_substituter(tweet)
   array_tweet = tweet.split
+  if 
  end
     
     
