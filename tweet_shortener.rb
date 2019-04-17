@@ -3,5 +3,5 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  if tweet.includes?(dictionary.keys)
+  array_tweet = tweet.split
     
