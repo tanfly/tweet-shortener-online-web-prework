@@ -8,6 +8,6 @@ def word_substituter(tweet)
   w.replace dictionary.values
  
  array_tweet.join
- 
+ end
     
     
