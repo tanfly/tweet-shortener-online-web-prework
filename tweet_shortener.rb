@@ -5,7 +5,7 @@ end
 def word_substituter(tweet)
   array_tweet = tweet.split(" ")
   
-  new_tweet = array_tweet.collect do |word|
+  array_tweet.each_with_index do |word|
     
  end
  end
