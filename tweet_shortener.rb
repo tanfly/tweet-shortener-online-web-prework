@@ -9,6 +9,6 @@ def word_substituter(tweet)
  end
  array_tweet.join
  end
- 
+ end
     
     
