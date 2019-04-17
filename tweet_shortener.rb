@@ -7,7 +7,7 @@ def word_substituter(tweet)
   
   array_tweet.each_with_index do |word, index|
     dictionary.each do |key, value|
-      if
+      if word.downcase == key
     
  end
  end
