@@ -4,6 +4,7 @@ end
 
 def word_substituter(tweet)
   array_tweet = tweet.split
-  if array_tweet.includes?(dictionary.keys)
+  array_tweet.each {|w| w.includes?(dictionary.keys)}
+ 
     
     
