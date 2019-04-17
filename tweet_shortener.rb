@@ -7,6 +7,6 @@ def word_substituter(tweet)
   array_tweet.each {|w| w.include?(dictionary.keys)}
   w.replace dictionary.values
  end
- array_tweet.
+ array_tweet.join
     
     
