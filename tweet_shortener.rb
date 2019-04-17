@@ -6,7 +6,8 @@ def word_substituter(tweet)
   array_tweet = tweet.split(" ")
   
   array_tweet.each_with_index do |word, index|
-    dictionary.each do 
+    dictionary.each do |key, value|
+      if
     
  end
  end
